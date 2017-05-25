@@ -1,0 +1,2 @@
+import NickelBot
+NickelBot.StartBot()
