@@ -25,17 +25,17 @@ NickelBot:
 
     The main interface class for interacting with the API and Bot.
     **Parameters:**
-        #    name (string)  -  Define the name of the Plugin.
-        #    version (float)  -  Set the Version Id of your Plugin.
-        #    author (string)  -  Give the Api the plugin creator's name.
-        #    desc (string)  -  Give a short Description of the plugin.
-         +------------------------+------------+----------+----------+
-         | Argument | Optional | Type | Description                  |
-         +========================+============+==========+==========+
-         | name  | No  | String  | Used to define tha name of the plugin. |
-         +------------------------+------------+----------+----------+
-         | body row 2             | ...        | ...      |          |
-         +------------------------+------------+----------+----------+
+         +----------+----------+-----------+-----------------------------------------------------------------+
+         | Argument | Optional | Type      | Description                                                     |
+         +==========+==========+===========+=================================================================+
+         | name     | No       | String    | Used to define tha name of the plugin.                          |
+         +----------+----------+-----------+-----------------------------------------------------------------+
+         | version  | No       | String    | Set the Version Id of your Plugin.                              |
+         +----------+----------+-----------+-----------------------------------------------------------------+
+         | author   | Yes      | String    | Give the Api the plugin creator's name.                         |
+         +----------+----------+-----------+-----------------------------------------------------------------+
+         | desc     | Yes      | String    | Give a short Description of the plugin.                         |
+         +----------+----------+-----------+-----------------------------------------------------------------+         
 
     .. attribute:: getInfo()
     
