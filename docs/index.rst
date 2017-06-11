@@ -15,16 +15,17 @@ Welcome to NickelBot's documentation!
 API
 ==================
 
--------
+--------
 Plugins
--------
+--------
 
-	^^^^^^^^^^^^^^^^^^^^^^
-	plugin.getcmd(cmd)
-	^^^^^^^^^^^^^^^^^^^^^^
-		Test YAY
-		""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^
+plugin.getcmd(cmd)
+^^^^^^^^^^^^^^^^^^^^^^
+Test YAY
+""""""""""""
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
