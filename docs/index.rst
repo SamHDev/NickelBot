@@ -17,39 +17,16 @@ API
 
 
 .. currentmodule:: NickelBot
-.. automodule:: NickelAPI
-    :members:
+Application Info
+------------------
 
-.. class:: plugin
-.. function:: plugin.getcmd(cmd)
-.. attribute:: hi
-.. data:: hi2
-.. method:: user
+.. class:: AppInfo
 
+    A namedtuple representing the bot's application info.
 
-Testing:
-=======
+    .. attribute:: id
 
-#############
-Test
-#############
-
-*************
-Test
-*************
-
-=============
-Test
-=============
-
-Test
-------------
-
-Test
-^^^^^^^^^^^^
-
-Test
-""""""""""""""
+        The application's ``client_id``.
 
 
 * :ref:`genindex`
