@@ -23,6 +23,32 @@ API
 .. class:: plugin
 .. function:: plugin.getcmd(cmd)
 
+
+Testing:
+=======
+
+#############
+Test
+#############
+
+*************
+Test
+*************
+
+=============
+Test
+=============
+
+Test
+------------
+
+Test
+^^^^^^^^^^^^
+
+Test
+""""""""""""""
+
+
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
