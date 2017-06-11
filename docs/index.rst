@@ -15,7 +15,9 @@ Welcome to NickelBot's documentation!
 Indices and tables
 ==================
 
-..topic:: Topic Title
+.. topic:: Topic Title
+
+.. data:: Hello
 
 * :ref:`genindex`
 * :ref:`modindex`
