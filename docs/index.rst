@@ -17,7 +17,7 @@ API
 
 
 .. currentmodule:: NickelBot
-.. autoclass:: NickelAPI
+.. autoclass:: NickelAPI.plugin
     :members:
 
 .. class:: plugin
