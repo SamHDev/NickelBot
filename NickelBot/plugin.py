@@ -36,16 +36,17 @@ def GetPlugins():
         log.note("Loaded " + str(flc) + " Plugins")
         log.info("Plugins Loaded")
 
-def ReqisterPlugin(data):
-    bp = BotPlugin(data[1],data[0],data[2],data[3],data[4])
+def RegisterPlugin(file,name,v,auth):
+    bp = BotPlugin(name,file,v,auth,[])
     plugins.append(bp)
-    log.note("Plugin: " + data[1] + " V:" + data[2] + " by " + data[3])
+    log.note("Plugin: " + name + " V:" + v + " by " + auth)
 class BotPlugin:
     def __init__(self,name,file,version,creator,data):
         self.name = name
         self.file = file
         self.version = version
         self.author = creator
+        self.desc = ""
         self.data = data
     def GetInfo():
         data = [self.name,self.file,self.version,self.author]

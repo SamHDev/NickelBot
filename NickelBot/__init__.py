@@ -1,8 +1,26 @@
+import NickelBot.config as cfg
+import NickelBot.logger as log
+import NickelBot.threads as thd
+import NickelBot.bot as bot
+import NickelBot.plugin as plg
+import NickelBot.console as cns
+k = thd.FuncThread(bot.StartConnect)
 def StartBot():
-    from NickelBot import config as cfg
-    from NickelBot import logger as log
     log.ok("Bot Starting")
-    from NickelBot import plugin as plg
     plg.GetPlugins()
-    from NickelBot import console as cns
-    cns.StartConsole()
+    k.start()
+    #l = thd.FuncThread(cns.StartConsole)
+    #l.start()
+    try:
+        while True:
+            h = ""
+    except KeyboardInterrupt:
+        CloseBot()
+    except SystemExit:
+        CloseBot()
+
+def CloseBot():
+    bot.client.logout()
+    k.stop()
+    #l.stop()
+    print("Closed :)")

@@ -19,6 +19,7 @@ class config:
             f = open(dr + cf,"w")
             f.write("{}")
             f.close()
+        print(dr + cf)
         with open(dr + cf) as json_dump:
             json_load = json.load(json_dump)
         return [json_load,dr + cf]

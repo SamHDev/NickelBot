@@ -1,5 +1,5 @@
-elist ["OnEnable","OnUserJoin","OnUserLeave","OnUserKicked","OnUserBanned","OnMessage","OnMessageEdit","OnMessageDelete"]
-ev {}
+elist = ["OnEnable","OnUserJoin","OnUserLeave","OnUserKicked","OnUserBanned","OnMessage","OnMessageEdit","OnMessageDelete"]
+ev = {}
 for el in elist:
     ev[el] = []
 def InvokeEvent(name,args):
