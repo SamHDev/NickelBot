@@ -17,11 +17,11 @@ API
 
 
 .. currentmodule:: NickelBot
-.. autoclass:: NickelAPI.plugin
+.. automodule:: NickelAPI
     :members:
 
 .. class:: plugin
-.. function:: plugin.getcmd(cmd,lol)
+.. function:: plugin.getcmd(cmd)
 
 * :ref:`genindex`
 * :ref:`modindex`
