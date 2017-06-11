@@ -11,14 +11,19 @@ Welcome to NickelBot's documentation!
    :caption: Contents:
 
 
+==================
 API
-======
+==================
+
+-------
 Plugins
 -------
 
+	^^^^^^^^^^^^^^^^^^^^^^
 	plugin.getcmd(cmd)
-	^^^^^^^^^^^^^^^^^^
-		"Test YAY"
+	^^^^^^^^^^^^^^^^^^^^^^
+		Test YAY
+		""""""""""""
 
 * :ref:`genindex`
 * :ref:`modindex`
