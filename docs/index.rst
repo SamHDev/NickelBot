@@ -12,12 +12,14 @@ Welcome to NickelBot's documentation!
 
 
 
-Indices and tables
+API
 ==================
 
-.. topic:: Topic Title
+Plugins
+-------
 
-.. data:: Hello
+plugin.getcmd(cmd)
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`genindex`
 * :ref:`modindex`
