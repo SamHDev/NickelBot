@@ -17,16 +17,32 @@ API
 
 
 .. currentmodule:: NickelBot
-Application Info
+
+NickelBot:
 ------------------
 
-.. class:: AppInfo
+.. class:: plugin(name,version)
 
-    A namedtuple representing the bot's application info.
+    The main interface class for interacting with the API and Bot.
+    **Parameters:**
+        #    name (string)  -  Define the name of the Plugin.
+        #    version (float)  -  Set the Version Id of your Plugin.
+        #    author (string)  -  Give the Api the plugin creator's name.
+        #    desc (string)  -  Give a short Description of the plugin.
+      
 
-    .. attribute:: id
+    .. attribute:: getInfo()
+    
+        Used to get the set info for the plugin
 
-        The application's ``client_id``.
+        *Returns: * [``name``,``version``,``author``]
+
+    .. attribute:: getLogger()
+    
+         Used to get the Logger for the Bot
+
+        *Returns: :class: 'Logger'
+     
 
 
 * :ref:`genindex`
