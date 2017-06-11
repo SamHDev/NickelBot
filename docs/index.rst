@@ -15,6 +15,11 @@ Welcome to NickelBot's documentation!
 API
 ==================
 
+
+.. currentmodule:: NickelBot
+.. autoclass:: NickelAPI
+    :members:
+
 .. class:: plugin
 .. function:: plugin.getcmd(cmd)
 
