@@ -18,8 +18,9 @@ API
 Plugins
 -------
 
-plugin.getcmd(cmd)
-^^^^^^^^^^^^^^^^^^
+	plugin.getcmd(cmd)
+	^^^^^^^^^^^^^^^^^^
+		Test YAY
 
 * :ref:`genindex`
 * :ref:`modindex`
