@@ -22,6 +22,8 @@ API
 
 .. class:: plugin
 .. function:: plugin.getcmd(cmd)
+.. attribute:: hi
+.. data:: hi2
 
 
 Testing:
