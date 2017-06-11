@@ -15,16 +15,11 @@ Welcome to NickelBot's documentation!
 API
 ==================
 
---------
-Plugins
---------
-
-^^^^^^^^^^^^^^^^^^^^^^
-plugin.getcmd
-^^^^^^^^^^^^^^^^^^^^^^
-.. function:: plugin.getcmd(cmd(str))
+.. class:: plugin
+	.. function:: plugin.getcmd(cmd)
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
 
