@@ -21,7 +21,7 @@ API
     :members:
 
 .. class:: plugin
-.. function:: plugin.getcmd(cmd)
+.. function:: plugin.getcmd(cmd,lol)
 
 * :ref:`genindex`
 * :ref:`modindex`
