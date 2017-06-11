@@ -20,10 +20,9 @@ Plugins
 --------
 
 ^^^^^^^^^^^^^^^^^^^^^^
-plugin.getcmd(cmd)
+plugin.getcmd
 ^^^^^^^^^^^^^^^^^^^^^^
-Test YAY
-""""""""""""
+.. function:: plugin.getcmd(cmd(str))
 
 * :ref:`genindex`
 * :ref:`modindex`
