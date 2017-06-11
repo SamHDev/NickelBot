@@ -4,6 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to NickelBot's documentation!
+THIS IS THE API PAGE
 =====================================
 
 .. toctree::
