@@ -29,7 +29,13 @@ NickelBot:
         #    version (float)  -  Set the Version Id of your Plugin.
         #    author (string)  -  Give the Api the plugin creator's name.
         #    desc (string)  -  Give a short Description of the plugin.
-      
+         +------------------------+------------+----------+----------+
+         | Argument | Optional | Type | Description                  |
+         +========================+============+==========+==========+
+         | name  | No  | String  | Used to define tha name of the plugin. |
+         +------------------------+------------+----------+----------+
+         | body row 2             | ...        | ...      |          |
+         +------------------------+------------+----------+----------+
 
     .. attribute:: getInfo()
     
