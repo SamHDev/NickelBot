@@ -43,13 +43,13 @@ NickelBot:
     
         Used to get the set info for the plugin
 
-        *Returns*: [name,version]
+        *Returns*: [``name`` , ``version``]
 
     .. function:: getLogger()
     
          Used to get the Logger for the Bot
 
-        *Returns*: :class: 'logger'
+        *Returns*: :class: `logger`
         
     .. function:: getConfig(args)
     
