@@ -44,15 +44,45 @@ NickelBot:
 
         *Returns*: [name,version]
 
-    .. attribute:: getLogger(args)
+    .. function:: getLogger()
     
          Used to get the Logger for the Bot
 
         *Returns*: :class: 'Logger'
         
-     
+    .. function:: getConfig(args)
+    
+         Used to get the Config Manager for the Bot
 
+        *Returns*: :class: 'Config'  
+        
+    .. function:: getCmd(command)
+    
+         Used to get the Config Manager for the Bot
+         
+         **Parameters:**
+         +----------+----------+-----------+-----------------------------------------------------------------+
+         | Argument | Optional | Type      | Description                                                     |
+         +==========+==========+===========+=================================================================+
+         | command  | No       | String    | The Name of the command that is being requested                 |
+         +----------+----------+-----------+-----------------------------------------------------------------+
 
+        *Returns*: :class: 'Command' 
+        
+    .. function:: addEvent(event,function):
+         
+         Used to add an Event Listner
+         
+         **Parameters:**
+         +----------+----------+-----------+-----------------------------------------------------------------+
+         | Argument | Optional | Type      | Description                                                     |
+         +==========+==========+===========+=================================================================+
+         | event    | No       | :class: 'Event'    | The Event name                                         |
+         +----------+----------+-----------+-----------------------------------------------------------------+
+         | function | No       | function  | The function used when event invoked.                           |
+         +----------+----------+-----------+-----------------------------------------------------------------+        
+         
+    
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
