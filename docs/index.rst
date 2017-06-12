@@ -24,6 +24,7 @@ NickelBot:
 .. class:: plugin(name,version)
 
     The main interface class for interacting with the API and Bot.
+    
     **Parameters:**
          +----------+----------+-----------+-----------------------------------------------------------------+
          | Argument | Optional | Type      | Description                                                     |
@@ -37,17 +38,18 @@ NickelBot:
          | desc     | Yes      | String    | Give a short Description of the plugin.                         |
          +----------+----------+-----------+-----------------------------------------------------------------+         
 
-    .. attribute:: getInfo()
+    .. function:: getInfo()
     
         Used to get the set info for the plugin
 
-        *Returns: * [``name``,``version``,``author``]
+        *Returns*: [name,version]
 
-    .. attribute:: getLogger()
+    .. attribute:: getLogger(args)
     
          Used to get the Logger for the Bot
 
-        *Returns: :class: 'Logger'
+        *Returns*: :class: 'Logger'
+        
      
 
 
