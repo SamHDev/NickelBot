@@ -55,7 +55,7 @@ NickelBot:
     
          Used to get the Config Manager for the Bot
 
-        *Returns*: :class: 'Config'  
+        *Returns*: :class:'Config'  
         
     .. function:: getCmd(command)
     
@@ -69,7 +69,7 @@ NickelBot:
          | command  | No       | String    | The Name of the command that is being requested                 |
          +----------+----------+-----------+-----------------------------------------------------------------+
 
-        *Returns*: :class: 'Command' 
+        *Returns*: :class:'Command' 
         
     .. function:: addEvent(event,function):
          
@@ -80,7 +80,7 @@ NickelBot:
          +----------+----------+------------------+----------------------------------------------------------+
          | Argument | Optional | Type             | Description                                              |
          +==========+==========+==================+==========================================================+
-         | event    | No       |:class: 'Event'   | The Event name                                           |
+         | event    | No       | :class:'Event'  | The Event name                                           |
          +----------+----------+------------------+----------------------------------------------------------+
          | function | No       | function         | The function used when event invoked.                    |
          +----------+----------+------------------+----------------------------------------------------------+        
