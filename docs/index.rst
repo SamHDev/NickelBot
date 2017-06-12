@@ -49,7 +49,7 @@ NickelBot:
     
          Used to get the Logger for the Bot
 
-        *Returns*: :class: `logger`
+        *Returns*: :class:`logger`
         
     .. function:: getConfig(args)
     
