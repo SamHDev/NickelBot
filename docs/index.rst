@@ -55,7 +55,7 @@ NickelBot:
     
          Used to get the Config Manager for the Bot
 
-        *Returns*: :class:`Config`
+        *Returns*: :class:`config`
         
     .. function:: getCmd(command)
     
@@ -69,7 +69,7 @@ NickelBot:
          | command  | No       | String    | The Name of the command that is being requested                 |
          +----------+----------+-----------+-----------------------------------------------------------------+
 
-        *Returns*: :class:`Command` 
+        *Returns*: :class:`command` 
         
     .. function:: addEvent(event,function)
          
@@ -136,6 +136,28 @@ NickelBot:
          +==========+==========+===========+=================================================================+
          | text     | No       | String    | The Text to Log                                                 |
          +----------+----------+-----------+-----------------------------------------------------------------+
+
+
+.. class:: command(name,plugin)
+
+    The main interface class for Bot Commands
+    
+    **Parameters:**
+    
+         +----------+----------+-----------------+-----------------------------------------------------------+
+         | Argument | Optional | Type            | Description                                               |
+         +==========+==========+=================+===========================================================+
+         | name     | No       | String          | Used to define tha name of the command                    |
+         +----------+----------+-----------------+-----------------------------------------------------------+
+         | plugin   | No       | :class:`plugin` | The Plugin Assined                                        |
+         +----------+----------+-----------------+-----------------------------------------------------------+
+
+    .. function:: addListner(Function)
+    
+        Assign a Function to A Command
+
+        *Returns*: [``name`` , ``version``]
+
 
 * :ref:`genindex`
 * :ref:`modindex`
