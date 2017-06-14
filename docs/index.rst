@@ -154,9 +154,31 @@ NickelBot:
 
     .. function:: addListner(Function)
     
-        Assign a Function to A Command
+        Assign a Function to A Command.
+        The function must have five Pararamters. Following the style of a ``command-function``
+         
+         
+         
+         +----------+----------+-----------------+-----------------------------------------------------------+
+         | Argument | Optional | Type            | Description                                               |
+         +==========+==========+=================+===========================================================+
+         | function | No       | function        | The Function to Assign                                    |
+         +----------+----------+-----------------+-----------------------------------------------------------+
+         
+        *Returns*: Success (Bool)
+        
+     .. function:: setDesc(Text)
+    
+        Set the Description of a command.
+        Showen in the HELP Command.
 
-        *Returns*: [``name`` , ``version``]
+         +----------+----------+-----------------+-----------------------------------------------------------+
+         | Argument | Optional | Type            | Description                                               |
+         +==========+==========+=================+===========================================================+
+         | text     | No       | String          | The Text to set as the Description                        |
+         +----------+----------+-----------------+-----------------------------------------------------------+
+
+        *Returns*: Success (Bool)      
 
 
 * :ref:`genindex`
