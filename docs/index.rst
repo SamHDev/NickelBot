@@ -167,7 +167,7 @@ NickelBot:
          
         *Returns*: Success (Bool)
         
-     .. function:: setDesc(Text)
+    .. function:: setDesc(Text)
     
         Set the Description of a command.
         Showen in the HELP Command.
@@ -179,6 +179,49 @@ NickelBot:
          +----------+----------+-----------------+-----------------------------------------------------------+
 
         *Returns*: Success (Bool)      
+
+        
+    .. function:: setUsage(Usage)
+    
+        Set the Usage of a command.
+        Showen in the HELP Command.
+        
+        The Command and Invoke are Already Included. Example:
+            <Invoke> <Command> <usage>    | !Hello <usage>
+         +----------+----------+-----------------+-----------------------------------------------------------+
+         | Argument | Optional | Type            | Description                                               |
+         +==========+==========+=================+===========================================================+
+         | usage    | No       | String          | The Text to set as the Useage                             |
+         +----------+----------+-----------------+-----------------------------------------------------------+
+         
+         e.g.
+    
+        *Returns*: Success (Bool)
+        
+    .. attribute:: name
+
+        The name of the command. e.g. !Hello --> Hello
+        
+        *Returns*: String
+
+    .. attribute:: plugin
+
+        The plugin that first registered the command.
+        
+        *Returns*: :class:`Plugin`
+ 
+ 
+    .. attribute:: usage
+
+        Get the usage set for the command that is displayed in the help command
+        
+        *Returns*: String
+
+    .. attribute:: desc
+
+        short for description. Get the description set for the command that is displayed in the help command
+        
+        *Returns*: String
 
 
 * :ref:`genindex`
