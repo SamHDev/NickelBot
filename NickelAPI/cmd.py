@@ -17,7 +17,7 @@ class command:
         self.desc = str(desc)
     def addAlt(self,altcmd):
         self.alis.append(str(altcmd))
-    def addUsage(self,use):
+    def setUsage(self,use):
         self.use = self.invoke + self.name + " " + use
         self.push()
     def push(self):
