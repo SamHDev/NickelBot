@@ -219,10 +219,16 @@ NickelBot:
 
     .. attribute:: desc
 
-        short for description. Get the description set for the command that is displayed in the help command
+         Short for description. Get the description set for the command that is displayed in the help command
         
         *Returns*: String
 
+.. class:: CommandData
+
+    .. attribute:: discord
+         
+         Get The DiscordPY Message instance.
+    
 
 * :ref:`genindex`
 * :ref:`modindex`
