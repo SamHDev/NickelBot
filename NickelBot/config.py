@@ -6,7 +6,7 @@ from NickelBot import logger as log
 def GetFileStruct():
     sys = platform.system()
     #sys = "Lunix"
-    rt = "\\"
+    rt = "/"
     win = "Windows"
     lnx = "Lunix"
     nil = None
@@ -15,7 +15,7 @@ def GetFileStruct():
     if (sys == lnx):
         rt = "/"
     if (sys == nil):
-        rt = "\\"
+        rt = "/"
     return rt
 
 def GetBaseDir():
