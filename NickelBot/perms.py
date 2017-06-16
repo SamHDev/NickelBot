@@ -28,6 +28,8 @@ def cP(serverid):
     file[serverid][0]["perms"][0]["roles"][0]["3"] = []
     file[serverid][0]["perms"][0]["roles"][0]["2"] = []
     file[serverid][0]["perms"][0]["roles"][0]["1"] = []
+    file[serverid][0]["blacklist"] = []
+    file[serverid][0]["settings"] = [{}]
     WriteFile(file)
 def GetPerms(user,server):
     uid = user.getId()
