@@ -2,14 +2,16 @@
 	"discord":[
 		{
 			"token": "MjgyMjM3MTQzNTgwMDE2NjQx.DB4B6A.8UWguaw-60hpJX-kjh6UWbkuBaA",
-			"shardmode": true,
+			"selfbot": false,
+			"shardmode": false,
 			"shardid": 0,
 			"shardcount": 1
 		}],
 	"cmds":[
 		{
-			"invoke":"!",
-			"dmhelp":true
+			"invoke": "!",
+			"dmhelp": false,
+			"embed": false
 		}],
 	"console":[
 		{
